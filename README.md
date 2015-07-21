@@ -1,4 +1,5 @@
-# Python Crash Course for Fusion Scientists in a hurry
+# Python Crash Course 
+## for Fusion Scientists in a hurry
 
 _Crash course: a class in which a lot of information is taught in a short period of time_ [merriam-webster]
 
@@ -65,6 +66,14 @@ Les bases du langage
 
 ## Pour aller plus loin ?  
 - ~~débugger, Pandas, interfaçage C/Fortran (f2py, etc), travailler avec des strings, Python standard library, tests unitaire, programmation objet, gestionnaires de version, optimisation et parallélisation~~
+
+## Ressources and references
+
+- https://scipy-lectures.github.io/
+- https://github.com/jakevdp/2014_fall_ASTR599/blob/master/notebooks/00_intro.ipynb
+- https://github.com/jrjohansson/scientific-python-lectures
+- http://www.pythonic.eu/fjfi/en/index.html
+
 
 
 * : alas...
