@@ -45,6 +45,12 @@ The course topics are the following:
 - Ouvrir des fichiers de données (`.csv`, `.mat`)
 - Où trouver de l’aide
 
+## Récupération des signaux de la base de donnée / _Getting signals for the database_
+
+- Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
+- ~~Utilisation d’outils avancés de visualisation des signaux (ThermaVIP, piScope, etc)~~
+
+
 ## Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_
 
 - Simple plot
@@ -56,10 +62,7 @@ The course topics are the following:
 - ~~backend~~
 - Où trouver de l’aide
 
-## Récupération des signaux de la base de donnée
 
-- Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
-- ~~Utilisation d’outils avancés de visualisation des signaux (ThermaVIP, piScope, etc)~~
 
 
 ## ~~Scipy~~
@@ -72,7 +75,15 @@ The course topics are the following:
 - Calcul symbolique (SymPy)
 
 ## Pour aller plus loin ?  _further information_
-- ~~débugger, Pandas, interfaçage C/Fortran (f2py, etc), travailler avec des strings, Python standard library, tests unitaire, programmation objet, gestionnaires de version, optimisation et parallélisation~~
+- ~~débugger~~
+- ~~Pandas~~
+- ~~interfaçage C/Fortran (f2py, etc)~~
+- ~~travailler avec des strings~~
+- ~~Explore the Python standard library~~
+- ~~unit tests~~
+- ~~Object Oriented Programming~~
+- ~~optimisation and parallalisation~~
+- ~~version control~~
 
 ## Ressources and references
 
