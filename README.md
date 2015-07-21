@@ -1,8 +1,10 @@
-# Python Crash Course (for Fusion Scientists)
+# Python Crash Course for Fusion Scientists in a hurry
 
 _Crash course: a class in which a lot of information is taught in a short period of time_ [merriam-webster]
 
-This is a Python course for scientists. The target audience is physicists or engineers, who already know how to use Matlab. The objective of this course is to make them learn the Python basics in order for them to be autonomous in the control room, for retrieving, manipulate and plotting data. 
+This is a Python course for scientists. The target audience is physicists or engineers, who already know how to use Matlab. 
+The objective of this course is to make them learn the Python basics in order for them to be autonomous in the control room fo: retrieving, manipulating and plotting data. 
+No More (*). 
 
 The course topics are the following:
 
@@ -14,7 +16,8 @@ The course topics are the following:
  - Spyder
  - IPython notebook
 
-# Python Basics
+## Python Basics
+
 Les bases du langage
 
 - Commentaires, affectation, `print`, commandes importantes et mots clefs, opérateurs
@@ -27,7 +30,7 @@ Les bases du langage
 - ~~Exceptions~~
 - Où trouver de l’aide
 
-# Numpy
+## Numpy
 
 - Numpy arrays
 - Opérations et manipulation des arrays, slicing
@@ -35,7 +38,7 @@ Les bases du langage
 - Ouvrir des fichiers de données (`.csv`, `.mat`)
 - Où trouver de l’aide
 
-# Représentation graphique des signaux avec matplotlib
+## Représentation graphique des signaux avec matplotlib
 
 - Simple plot
 - Changing plot options (`axes`, `set_`,
@@ -46,7 +49,7 @@ Les bases du langage
 - ~~backend~~
 - Où trouver de l’aide
 
-# ~~Scipy~~
+## ~~Scipy~~
 
 - http://docs.scipy.org/doc/scipy/reference
 - Intégration numérique ?
@@ -55,11 +58,13 @@ Les bases du langage
 - Traitement d’image ?
 - Calcul symbolique (SymPy)
 
-# Récupération des signaux de la base de donnée
+## Récupération des signaux de la base de donnée
 
 - Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
 - ~~Utilisation d’outils avancés de visualisation des signaux (ThermaVIP, piScope, etc)~~
 
-# Pour aller plus loin ?  
+## Pour aller plus loin ?  
 - ~~débugger, Pandas, interfaçage C/Fortran (f2py, etc), travailler avec des strings, Python standard library, tests unitaire, programmation objet, gestionnaires de version, optimisation et parallélisation~~
 
+
+* : alas...
