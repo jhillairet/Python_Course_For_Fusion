@@ -20,50 +20,49 @@ The course topics are the following:
 ## Vous avez dit Python? / _You said Python?_
 
  - Qu’est-ce que Python et pourquoi l’apprendre ?
- - Comment utiliser Pyhon à l’IRFM (windows/linux) ?
- - Python dans le terminal. IPython
+
+ - Comment utiliser Python à l’IRFM (windows/linux) ?
+ - Python dans le terminal. IPython.
  - Spyder
  - IPython notebook
-
+ - Ou trouver de l'aide à l'IRFM ? -> wiki Python, mailling list
+ 
 ## Les bases indispensables de Python / _Python Language Basics_
 
-- Commentaires, affectation, `print`, commandes importantes et mots clefs, opérateurs
-- Importer un module,
+- Commentaires, affectation, `print`, commandes importantes et mots clefs
+
 - Blocks : `if`, `for`, `while`
 - Functions
-- ~~classes et la programmation objet~~
-- ~~conteneurs type tuples, dictionnaires, etc.~~
+- Gestion des erreurs ? ~~Exceptions~~
+- Importer un module
+- ~~classes et programmation objet~~
+- ~~conteneurs: tuples, dictionnaires, etc.~~
 - ~~itérateurs et générateurs~~
-- ~~Exceptions~~
-- Où trouver de l’aide
+- Où trouver de l’aide ?
 
 ## Numpy
 
 - Numpy arrays
 - Opérations et manipulation des arrays, slicing
-- Fonctions de numpy (`ufunc`, etc)
+- ~~Fonctions de numpy (`ufunc`, etc) ~~
 - Ouvrir des fichiers de données (`.csv`, `.mat`)
-- Où trouver de l’aide
+- Où trouver de l’aide ?
 
 ## Récupération des signaux de la base de donnée / _Getting signals for the database_
 
 - Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
 - ~~Utilisation d’outils avancés de visualisation des signaux (ThermaVIP, piScope, etc)~~
 
-
 ## Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_
 
 - Simple plot
-- Changing plot options (`axes`, `set_`,
-- Exporter une figure
+- Changer les options graphiques, depuis l'interface  ou en commandes (`axes`, `set_`, etc.)
+- Exporter une figure depuis l'interface ou en commandes
 - Subplots
 - `pcolor` ou assimilé
 - Figures en 3D (`projection=3D`)
 - ~~backend~~
-- Où trouver de l’aide
-
-
-
+- Où trouver de l’aide ?
 
 ## ~~Scipy~~
 
