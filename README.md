@@ -19,8 +19,8 @@ The course topics are the following:
 
 ## [Vous avez dit Python? / _You said Python?_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/1%2520-%2520Introduction%2520to%2520Python.ipynb#/)
 
- - Qu’est-ce que Python et pourquoi l’apprendre ?
-
+ - Qu’est-ce que Python?
+ - Pourquoi utiliser Python plutôt que...?
  - Comment utiliser Python à l’IRFM (windows/linux) ?
  - Python dans le terminal. IPython.
  - Spyder
