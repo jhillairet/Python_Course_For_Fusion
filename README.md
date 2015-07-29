@@ -30,7 +30,6 @@ The course topics are the following:
 ## Les bases indispensables de Python / _Python Language Basics_
 
 - Commentaires, affectation, `print`, commandes importantes et mots clefs
-
 - Blocks : `if`, `for`, `while`
 - Functions
 - Gestion des erreurs ? ~~Exceptions~~
