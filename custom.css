@@ -1,3 +1,14 @@
+div.text_cell_render h1 {
+	font-size: 24pt;
+	color: rgb(192,80,77);
+	background-color: rgb(242,242,242);
+}
+
+div.text_cell_render h2 {
+	font-size: 18pt;
+	color: rgb(31,73,125);
+}
+
 .reveal {
     overflow: visible !important;
     font-size: 250% !important;
