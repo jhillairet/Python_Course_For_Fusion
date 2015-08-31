@@ -5,7 +5,7 @@ div.text_cell_render h1 {
 }
 
 div.text_cell_render h2 {
-	font-size: 18pt;
+	font-size: 20pt;
 	color: rgb(31,73,125);
 }
 
@@ -36,7 +36,7 @@ div.slides {
 }
 
 .reveal p, .reveal li {
-    font-size: 1.2em;
+    font-size: 14;
 }
 
 .reveal li {
@@ -45,11 +45,11 @@ div.slides {
 
 .reveal li ul li {
     padding: 0.1em !important;
-    font-size: 0.9em;
+    font-size: 12;
 }
 
 p.caption, p.footnote {
-    font-size: 0.8em !important;
+    font-size: 14 !important;
 }
 
 img {
