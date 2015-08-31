@@ -1,91 +1,41 @@
-.reveal {
-    overflow: visible !important;
-    font-size: 250% !important;
+.pmode {
+    display:none; !important
 }
 
-div.slides {
-    width: 1024px !important;
-    height: 768px !important;
+div.text_cell_render h1 {
+	font-size: 24pt;
+	color: rgb(192,80,77);
+	background-color: rgb(245,245,245);
 }
 
-.reveal .slides>section>section {
-    padding: 0;
+div.text_cell_render h2 {
+	font-size: 20pt;
+	color: rgb(31,73,125);
+	background-color: rgb(242,242,242);
 }
 
-.rendered_html h1:first-child {
-    margin-top: 0;
+.presentation_mode h1{
+        text-align: center;
 }
 
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
-    font-family: sans-serif !important;
+.presentation_mode .maintoolbar-container{
+    display:none; !important
 }
 
-.rendered_html h5 {
-    margin-top: 0.5em !important;
+.presentation_mode div#notebook-container {
+    box-shadow: none;
+    -webkit-box-shadow: none:
+
 }
 
-.reveal p, .reveal li {
-    font-size: 1.2em;
+.presentation_mode #header {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: thin silver solid;
+
 }
 
-.reveal li {
-    padding: 0;
+body.presentation_mode {
+    background-color:white;
 }
 
-.reveal li ul li {
-    padding: 0.1em !important;
-    font-size: 0.9em;
-}
-
-p.caption, p.footnote {
-    font-size: 0.8em !important;
-}
-
-img {
-    max-height: 450px !important;
-    /* margin-left: auto !important; */
-    /* margin-right: auto !important; */
-}
-
-blockquote {
-    box-shadow: none !important;
-    border-left: 5px gray solid !important;
-    padding: 0 0 0.5em 1em !important;
-}
-
-.prompt {
-    visibility: hidden;
-    display: none;
-}
-
-.rendered_html ul, .rendered_html ol {
-    margin: 0 1em;
-}
-
-@media print {
-  a[href]:after {
-    content: none !important;
-  }
-}
-
-.reveal .slide-number {
-    font-size: 1em;
-    color: black;
-    opacity: 1;
-    right: 2em;
-    bottom: 2em;
-}
-
-a.anchor-link {
-    padding: 0 !important;
-    display: none !important;
-}
-
-p.tiny {
-    font-size: 0.7em;
-    font-style: italic;
-}
-
-body.cython {
-    background: white;
-}
