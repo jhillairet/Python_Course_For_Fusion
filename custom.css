@@ -1,17 +1,18 @@
 div.text_cell_render h1 {
 	font-size: 24pt;
 	color: rgb(192,80,77);
-	background-color: rgb(242,242,242);
+	background-color: rgb(245,245,245);
 }
 
 div.text_cell_render h2 {
 	font-size: 20pt;
 	color: rgb(31,73,125);
+	background-color: rgb(242,242,242);
 }
 
 .reveal {
     overflow: visible !important;
-    font-size: 250% !important;
+    font-size: 100% !important;
 }
 
 div.slides {
