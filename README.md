@@ -19,17 +19,24 @@ The course topics are the following:
 
 ## [Vous avez dit Python? / _You said Python?_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/1%2520-%2520Introduction%2520to%2520Python.ipynb#/)
 
- - Qu’est-ce que Python?
- - Pourquoi utiliser Python plutôt que...?
- - Comment utiliser Python à l’IRFM (windows/linux) ?
- - Python dans le terminal. IPython.
+ - Whats is Python?
+ - Why should I care?
+ - Python at IRFM
+ - Python terminal
+ - IPython
+ - Jupyter (ex-IPython notebook)
  - Spyder
- - IPython notebook
- - Ou trouver de l'aide à l'IRFM ? -> wiki Python, mailling list
+ - Need help?
  
 ## Les bases indispensables de Python / _Python Language Basics_
 
-- Commentaires, affectation, `print`, commandes importantes et mots clefs
+- Python Files
+- Comments
+- Variables
+- Dealing with Errors
+- (Some) Python Operators
+- Strings
+- String Manipulations
 - Blocks : `if`, `for`, `while`
 - Functions
 - Gestion des erreurs ? ~~Exceptions~~
