@@ -2,6 +2,18 @@
     display:none; !important
 }
 
+div.text_cell_render h1 {
+	font-size: 24pt;
+	color: rgb(192,80,77);
+	background-color: rgb(245,245,245);
+}
+
+div.text_cell_render h2 {
+	font-size: 20pt;
+	color: rgb(31,73,125);
+	background-color: rgb(242,242,242);
+}
+
 .presentation_mode h1{
         text-align: center;
 }
