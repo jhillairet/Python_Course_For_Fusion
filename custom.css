@@ -46,11 +46,11 @@ div.slides {
 
 .reveal li ul li {
     padding: 0.1em !important;
-    font-size: 14;
+    font-size: 16;
 }
 
 p.caption, p.footnote {
-    font-size: 14 !important;
+    font-size: 16 !important;
 }
 
 img {
