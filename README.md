@@ -3,7 +3,9 @@
 
 _Crash course: a class in which a lot of information is taught in a short period of time_ [merriam-webster]
 
-This is a Python elementary course for scientists (physicists or engineers and eventually students) who already know how to use Matlab.
+This is a Python elementary course for scientists (physicists or engineers and eventually students) who already know how to use Matlab. 
+
+Much of the content of this course is very inspired from the book [Effective Computation in Physics](http://physics.codes/) from Anthony Scopatz and Kathryn D.Huff (which I really recommand!). 
  
 The goal of this course is to empower the audience for typical control room work: retrieving, manipulating and plotting data. The duration is expected to be one or two days at max. 
 
