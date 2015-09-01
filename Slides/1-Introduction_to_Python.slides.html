@@ -214,7 +214,88 @@ div.output_prompt {
 <body>
 <div class="reveal">
 <div class="slides">
-<section>
+<div style=display:none>
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="kn">from</span> <span class="nn">IPython</span> <span class="kn">import</span> <span class="n">utils</span>  
+<span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">HTML</span>  
+<span class="kn">import</span> <span class="nn">os</span>  
+<span class="k">def</span> <span class="nf">css_styling</span><span class="p">():</span>  
+    <span class="sd">&quot;&quot;&quot;Load the CSS sheet &#39;custom.css&#39; located in the directory&quot;&quot;&quot;</span>
+    <span class="n">styles</span> <span class="o">=</span> <span class="s">&quot;&lt;style&gt;</span><span class="se">\n</span><span class="si">%s</span><span class="se">\n</span><span class="s">&lt;/style&gt;&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s">&#39;./custom.css&#39;</span><span class="p">,</span><span class="s">&#39;r&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+    <span class="k">return</span> <span class="n">HTML</span><span class="p">(</span><span class="n">styles</span><span class="p">)</span>
+<span class="n">css_styling</span><span class="p">()</span>  
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[17]:</div>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<style>
+.pmode {
+    display:none; !important
+}
+
+div.text_cell_render h1 {
+	font-size: 24pt;
+	color: rgb(192,80,77);
+	background-color: rgb(245,245,245);
+}
+
+div.text_cell_render h2 {
+	font-size: 20pt;
+	color: rgb(31,73,125);
+	background-color: rgb(242,242,242);
+}
+
+.presentation_mode h1{
+        text-align: center;
+}
+
+.presentation_mode .maintoolbar-container{
+    display:none; !important
+}
+
+.presentation_mode div#notebook-container {
+    box-shadow: none;
+    -webkit-box-shadow: none:
+
+}
+
+.presentation_mode #header {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: thin silver solid;
+
+}
+
+body.presentation_mode {
+    background-color:white;
+}
+
+
+</style>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    </div></section>
+    </section><section>
     <section>
     
 <div class="cell border-box-sizing text_cell rendered">
@@ -250,11 +331,11 @@ div.output_prompt {
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="3">
+</div><div class="fragment" data-fragment-index="4">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">my_var</span> <span class="o">=</span> <span class="mi">42</span>
@@ -269,7 +350,7 @@ div.output_prompt {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[1]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -282,11 +363,11 @@ div.output_prompt {
 </div>
 
 </div>
-    </div><div class="fragment" data-fragment-index="4">
+    </div><div class="fragment" data-fragment-index="5">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">my_var</span> <span class="o">=</span> <span class="s">&#39;hello world&#39;</span>
@@ -301,7 +382,7 @@ div.output_prompt {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[2]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[19]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -341,51 +422,17 @@ div.output_prompt {
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="7">
+</div><div class="fragment" data-fragment-index="8">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">this</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>The Zen of Python, by Tim Peters
-
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren&apos;t special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you&apos;re Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it&apos;s a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let&apos;s do more of those!
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -404,7 +451,7 @@ Namespaces are one honking great idea -- let&apos;s do more of those!
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="9">
+</div><div class="fragment" data-fragment-index="10">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -440,7 +487,7 @@ Namespaces are one honking great idea -- let&apos;s do more of those!
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="11">
+</div><div class="fragment" data-fragment-index="12">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -454,9 +501,7 @@ Namespaces are one honking great idea -- let&apos;s do more of those!
 </div>
 </div>
 </div>
-    </div></section>
-    </section><section>
-    <section>
+    </div></section><section>
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -469,7 +514,7 @@ Namespaces are one honking great idea -- let&apos;s do more of those!
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="13">
+</div><div class="fragment" data-fragment-index="14">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -483,7 +528,7 @@ Namespaces are one honking great idea -- let&apos;s do more of those!
 </div>
 </div>
 </div>
-    </div><div class="fragment" data-fragment-index="14">
+    </div><div class="fragment" data-fragment-index="15">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -554,28 +599,31 @@ Namespaces are one honking great idea -- let&apos;s do more of those!
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="19">
-    `[JH218595@merope ~ ]> python
-Python 3.3.5 (default, Jul 22 2014, 09:44:27)
-[GCC 4.4.6 20120305 (Red Hat 4.4.6-4)] on linux
-Type "help", "copyright", "credits" or "license" for more information.
-
-Imported NumPy 1.8.1, SciPy 0.14.0, Matplotlib 1.3.1, pywed 0.1.1
-
-Type "scientific" for more details.
->>>
-    </div></section><section>
+</div><div class="fragment" data-fragment-index="20">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code>[JH218595@merope ~ ]&gt; python
+Python 3.3.5 (default, Jul 22 2014, 09:44:27)
+[GCC 4.4.6 20120305 (Red Hat 4.4.6-4)] on linu`
+Type "help", "copyright", "credits" or "license" for more information. 
+
+Imported NumPy 1.8.1, SciPy 0.14.0, Matplotlib 1.3.1, pywed 0.1.1
+
+Type "scientific" for more details.
+&gt;&gt;&gt; 
+
+</code></pre>
 <p>To exit, use <code>exit()</code> or <code>CRTL+D</code> keyboard shortcut.</p>
 
 </div>
 </div>
-</div></section><section>
+</div>
+    </div></section><section>
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -589,21 +637,32 @@ Windows: IPython Qt Console.</p>
 </div>
 </div>
 </div><div class="fragment" data-fragment-index="22">
-    [JH218595@merope ~ ]> ipython
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code>[JH218595@merope ~ ]&gt; ipython
 Python 3.3.5 (default, Jul 22 2014, 09:44:27)
 Type "copyright", "credits" or "license" for more information.
 
 IPython 2.1.0 -- An enhanced Interactive Python.
-?         -> Introduction and overview of IPython's features.
-%quickref -> Quick reference.
-help      -> Python's own help system.
-object?   -> Details about 'object', use 'object??' for extra details.
+?         -&gt; Introduction and overview of IPython's features.
+%quickref -&gt; Quick reference.
+help      -&gt; Python's own help system.
+object?   -&gt; Details about 'object', use 'object??' for extra details.
 
 Imported NumPy 1.8.1, SciPy 0.14.0, Matplotlib 1.3.1, pywed 0.1.1
 
 Type "scientific" for more details.
 
-In [1]:
+In [1]:</code></pre>
+
+</div>
+</div>
+</div>
     </div></section>
     </section><section>
     <section>
@@ -631,7 +690,50 @@ Windows: IPython Notebook</p>
 
 </div>
 </div>
-</div></section>
+</div><div style=display:none>
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="kn">from</span> <span class="nn">IPython.html.widgets</span> <span class="kn">import</span> <span class="n">interact</span><span class="p">,</span> <span class="n">interactive</span><span class="p">,</span> <span class="n">fixed</span>
+<span class="kn">from</span> <span class="nn">IPython.html</span> <span class="kn">import</span> <span class="n">widgets</span>
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">interact</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">interact</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>True
+</pre>
+</div>
+</div>
+
+<div class="output_area"><div class="prompt output_prompt">Out[21]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;function __main__.f&gt;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    </div></section>
     </section><section>
     <section>
     
@@ -645,6 +747,16 @@ Windows: IPython Notebook</p>
 <li>a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features</li>
 <li>and a numerical computing environment thanks to the support of IPython (enhanced interactive Python interpreter) and popular Python libraries such as NumPy (linear algebra), SciPy (signal and image processing) or matplotlib (interactive 2D/3D plotting).</li>
 </ul>
+
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>Its interface look very much like the one of Matlab. 
 <img src="./Figures/spyder-screenshot.jpg" alt="Spyder screenshot"></p>
 
@@ -659,8 +771,11 @@ Windows: IPython Notebook</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Need-help?">Need help?<a class="anchor-link" href="#Need-help?">&#182;</a></h1><h2 id="IRFM-Mailing-list">IRFM Mailing list<a class="anchor-link" href="#IRFM-Mailing-list">&#182;</a></h2><p>Public maling list concerning python at IRFM: PyIRFM <code>pyirfm@saxifrage.saclay.cea.fr</code>
-Suscribe here : <a href="http://saxifrage:3500/wws/subscribe/pyirfm">http://saxifrage:3500/wws/subscribe/pyirfm</a></p>
+<h1 id="Need-help?">Need help?<a class="anchor-link" href="#Need-help?">&#182;</a></h1><h2 id="IRFM-Mailing-list">IRFM Mailing list<a class="anchor-link" href="#IRFM-Mailing-list">&#182;</a></h2><p>Public maling list concerning python at IRFM: PyIRFM</p>
+<ul>
+<li><strong><code>pyirfm@saxifrage.saclay.cea.fr</code></strong></li>
+</ul>
+<p>Suscribe here : <a href="http://saxifrage:3500/wws/subscribe/pyirfm">http://saxifrage:3500/wws/subscribe/pyirfm</a></p>
 
 </div>
 </div>
@@ -710,11 +825,11 @@ Suscribe here : <a href="http://saxifrage:3500/wws/subscribe/pyirfm">http://saxi
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="31">
+</div><div class="fragment" data-fragment-index="33">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">help</span><span class="p">(</span><span class="mi">46</span><span class="p">)</span>
@@ -946,11 +1061,11 @@ class int(object)
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="33">
+</div><div class="fragment" data-fragment-index="35">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="nb">dir</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
@@ -964,7 +1079,7 @@ class int(object)
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[5]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[23]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1051,9 +1166,9 @@ class int(object)
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="35">
+</div><div class="fragment" data-fragment-index="37">
     * `an_object?`: Prints all known information about object
-    </div><div class="fragment" data-fragment-index="36">
+    </div><div class="fragment" data-fragment-index="38">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -1067,7 +1182,7 @@ class int(object)
 </div>
 </div>
 </div>
-    </div><div class="fragment" data-fragment-index="37">
+    </div><div class="fragment" data-fragment-index="39">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -1081,88 +1196,7 @@ class int(object)
 </div>
 </div>
 </div>
-    </div><div style=display:none>
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="kn">from</span> <span class="nn">IPython</span> <span class="kn">import</span> <span class="n">utils</span>  
-<span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">HTML</span>  
-<span class="kn">import</span> <span class="nn">os</span>  
-<span class="k">def</span> <span class="nf">css_styling</span><span class="p">():</span>  
-    <span class="sd">&quot;&quot;&quot;Load the CSS sheet &#39;custom.css&#39; located in the directory&quot;&quot;&quot;</span>
-    <span class="n">styles</span> <span class="o">=</span> <span class="s">&quot;&lt;style&gt;</span><span class="se">\n</span><span class="si">%s</span><span class="se">\n</span><span class="s">&lt;/style&gt;&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s">&#39;./custom.css&#39;</span><span class="p">,</span><span class="s">&#39;r&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
-    <span class="k">return</span> <span class="n">HTML</span><span class="p">(</span><span class="n">styles</span><span class="p">)</span>
-<span class="n">css_styling</span><span class="p">()</span>  
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">Out[6]:</div>
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<style>
-.pmode {
-    display:none; !important
-}
-
-div.text_cell_render h1 {
-	font-size: 24pt;
-	color: rgb(192,80,77);
-	background-color: rgb(245,245,245);
-}
-
-div.text_cell_render h2 {
-	font-size: 20pt;
-	color: rgb(31,73,125);
-	background-color: rgb(242,242,242);
-}
-
-.presentation_mode h1{
-        text-align: center;
-}
-
-.presentation_mode .maintoolbar-container{
-    display:none; !important
-}
-
-.presentation_mode div#notebook-container {
-    box-shadow: none;
-    -webkit-box-shadow: none:
-
-}
-
-.presentation_mode #header {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    border-bottom: thin silver solid;
-
-}
-
-body.presentation_mode {
-    background-color:white;
-}
-
-
-</style>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-    </div></section>
-    </section>
+    </div>
 </div>
 </div>
 
