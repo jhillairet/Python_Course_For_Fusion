@@ -41,18 +41,12 @@ The course topics are the following:
 - String Manipulations
 - Blocks : `if`, `for`, `while`
 - Functions
-- Gestion des erreurs ? ~~Exceptions~~
-- Importer un module
-- ~~classes et programmation objet~~
-- ~~conteneurs: tuples, dictionnaires, etc.~~
-- ~~itérateurs et générateurs~~
-- Où trouver de l’aide ?
+- Exceptions
 
 ## Numpy
 
 - Numpy arrays
 - Opérations et manipulation des arrays, slicing
-- ~~Fonctions de numpy (`ufunc`, etc) ~~
 - Ouvrir des fichiers de données (`.csv`, `.mat`)
 - Où trouver de l’aide ?
 
@@ -69,7 +63,6 @@ The course topics are the following:
 - Subplots
 - `pcolor` ou assimilé
 - Figures en 3D (`projection=3D`)
-- ~~backend~~
 - Où trouver de l’aide ?
 
 ## ~~Scipy~~
@@ -94,6 +87,7 @@ The course topics are the following:
 
 ## Ressources and references
 
+- [NumPy for Matlab users](http://mathesaurus.sourceforge.net)
 - https://scipy-lectures.github.io/
 - https://github.com/jakevdp/2014_fall_ASTR599/blob/master/notebooks/00_intro.ipynb
 - https://github.com/jrjohansson/scientific-python-lectures
