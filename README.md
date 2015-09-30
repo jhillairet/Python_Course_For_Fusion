@@ -9,17 +9,17 @@ Much of the content of this course is very inspired from the book [Effective Com
  
 The goal of this course is to empower the audience for typical control room work: retrieving, manipulating and plotting data. The duration is expected to be one or two days at max. 
 
-This objective is certainly somewhat limited with respect to the potential of Python for science, and thus criticable. This choice is motivated mainly for time and utility purpose, as the audience will be faced to a crude problem during WEST restart: a reduced number of Matlab licences. They will be busy beside on other project and won't have few days available for a complete (and proper) Python course. 
+This objective is certainly somewhat limited with respect to the potential of Python for science, and thus criticable. This choice is motivated mainly for time and utility purpose, as the audience will be faced to a crude problem during WEST restart: a reduced number of Matlab licences. They will be busy beside on other projects and won't have few days available for a complete (and proper) Python course. 
 
-Because this solution does not please me (but rather imposed), the first part of the course is dedicated to carefully explain what is Python and to show how broad its usage can be (ie.: Python is not only a cheap Matlab-replacement). 
+Because this solution does not please me (but rather circunstance imposed), the first part of the course is dedicated to carefully explain what is Python and to show how broad its usage can be (i.e.: Python is not only a cheap Matlab-replacement). 
 
-Moreover, each course sections include a _where do find more information_, in order to insist on the fact that the online ressources concerning Python are significant (numerous but scattered!), which is a change in habits over Matlab for which the documentation is very well centralized.
+Moreover, each course sections include a _where could I find more information?_, in order to insist on the fact that the online ressources concerning Python are significant (numerous but scattered!), which is a change in habits over Matlab for which the documentation is very well centralized.
 
 
 
 The course topics are the following:
 
-## [Vous avez dit Python? / _You said Python?_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/1%2520-%2520Introduction%2520to%2520Python.ipynb#/)
+## [Vous avez dit Python? / _You said Python?_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/1-Introduction_to_Python.ipynb#/)
 
  - Whats is Python?
  - Why should I care?
@@ -30,7 +30,7 @@ The course topics are the following:
  - Spyder
  - Need help?
  
-## Les bases indispensables de Python / _Python Language Basics_
+## [Les bases indispensables de Python / _Python Language Basics_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/2-Python_Basics.ipynb#/)
 
 - Python Files
 - Comments
@@ -39,23 +39,20 @@ The course topics are the following:
 - (Some) Python Operators
 - Strings
 - String Manipulations
-- Blocks : `if`, `for`, `while`
+- Blocks : `if/else`, `for`, `while`
 - Functions
 - Exceptions
+- List comprehension
 
-## Numpy
+## [(Introduction to) Numpy](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/3-NumPy_Basics.ipynb#/)
 
 - Numpy arrays
 - Opérations et manipulation des arrays, slicing
 - Ouvrir des fichiers de données (`.csv`, `.mat`)
 - Où trouver de l’aide ?
 
-## Récupération des signaux de la base de donnée / _Getting signals for the database_
 
-- Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
-- ~~Utilisation d’outils avancés de visualisation des signaux (ThermaVIP, piScope, etc)~~
-
-## Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_
+## [Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/4-Plotting_Basics.ipynb#/)
 
 - Simple plot
 - Changer les options graphiques, depuis l'interface  ou en commandes (`axes`, `set_`, etc.)
@@ -65,30 +62,16 @@ The course topics are the following:
 - Figures en 3D (`projection=3D`)
 - Où trouver de l’aide ?
 
-## ~~Scipy~~
+## [Récupération des signaux de la base de donnée / _Getting signals for the database_]((http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/5-Fusion_data.ipynb#/)
 
-- http://docs.scipy.org/doc/scipy/reference
-- Intégration numérique ?
-- FFT ?
-- Interpolation ?
-- Traitement d’image ?
-- Calcul symbolique (SymPy)
+- Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
 
-## Pour aller plus loin ?  _further information_
-- ~~débugger~~
-- ~~Pandas~~
-- ~~interfaçage C/Fortran (f2py, etc)~~
-- ~~travailler avec des strings~~
-- ~~Explore the Python standard library~~
-- ~~unit tests~~
-- ~~Object Oriented Programming~~
-- ~~optimisation and parallalisation~~
-- ~~version control~~
 
 ## Ressources and references
 
-- [NumPy for Matlab users](http://mathesaurus.sourceforge.net)
-- https://scipy-lectures.github.io/
-- https://github.com/jakevdp/2014_fall_ASTR599/blob/master/notebooks/00_intro.ipynb
-- https://github.com/jrjohansson/scientific-python-lectures
-- http://www.pythonic.eu/fjfi/en/index.html
+- [MATLAB synonymous commands in Python/NumPy](http://mathesaurus.sourceforge.net)
+- [Scipy Lecture Notes](http://www.scipy-lectures.org/)
+
+- [Scientific Computing With Python, Jake Vanderplas](http://www.astro.washington.edu/users/vanderplas/Astr599_2014/)
+- [Lectures on scientific computing with Python, Robert Johansson](https://github.com/jrjohansson/scientific-python-lectures)
+- [Scientific programming in Python, Jakub Urban (IPP Prague)](http://www.pythonic.eu/fjfi/en/index.html)
