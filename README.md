@@ -62,7 +62,7 @@ The course topics are the following:
 - Figures en 3D (`projection=3D`)
 - Où trouver de l’aide ?
 
-## [Récupération des signaux de la base de donnée / _Getting signals for the database_]((http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/5-Fusion_data.ipynb#/)
+## [Récupération des signaux de la base de donnée / _Getting signals for the database_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/5-Fusion_data.ipynb#/)
 
 - Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
 
