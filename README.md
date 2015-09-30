@@ -65,6 +65,7 @@ The course topics are the following:
 ## [Récupération des signaux de la base de donnée / _Getting signals for the database_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/5-Fusion_data.ipynb#/)
 
 - Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
+- Accessing data via MDSplus: Tore Supra, JET 
 
 
 ## Ressources and references
