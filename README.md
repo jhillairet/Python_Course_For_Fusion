@@ -19,7 +19,7 @@ Moreover, each course sections include a _where could I find more information?_,
 
 The course topics are the following:
 
-## [Vous avez dit Python? / _You said Python?_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/1-Introduction_to_Python.ipynb#/)
+## [Vous avez dit Python? / _You said Python?_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/1-Introduction_to_Python.ipynb#/)
 
  - Whats is Python?
  - Why should I care?
@@ -30,7 +30,7 @@ The course topics are the following:
  - Spyder
  - Need help?
  
-## [Les bases indispensables de Python / _Python Language Basics_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/2-Python_Basics.ipynb#/)
+## [Les bases indispensables de Python / _Python Language Basics_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/2-Python_Basics.ipynb#/)
 
 - Python Files
 - Comments
@@ -44,7 +44,7 @@ The course topics are the following:
 - Exceptions
 - List comprehension
 
-## [(Introduction to) Numpy](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/3-NumPy_Basics.ipynb#/)
+## [(Introduction to) Numpy](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/3-NumPy_Basics.ipynb#/)
 
 - Numpy arrays
 - Opérations et manipulation des arrays, slicing
@@ -52,7 +52,7 @@ The course topics are the following:
 - Où trouver de l’aide ?
 
 
-## [Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/4-Plotting_Basics.ipynb#/)
+## [Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/4-Plotting_Basics.ipynb#/)
 
 - Simple plot
 - Changer les options graphiques, depuis l'interface  ou en commandes (`axes`, `set_`, etc.)
@@ -62,7 +62,7 @@ The course topics are the following:
 - Figures en 3D (`projection=3D`)
 - Où trouver de l’aide ?
 
-## [Récupération des signaux de la base de donnée / _Getting signals for the database_](http://nbviewer.ipython.org/format/slides/github/Hash--/Fusion/blob/master/Python_Crash_Course/5-Fusion_data.ipynb#/)
+## [Récupération des signaux de la base de donnée / _Getting signals for the database_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/5-Fusion_data.ipynb#/)
 
 - Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
 - Accessing data via MDSplus: Tore Supra, JET 
