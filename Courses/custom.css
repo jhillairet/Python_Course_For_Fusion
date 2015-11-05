@@ -1,0 +1,52 @@
+.pmode {
+    display:none; !important
+}
+
+div.text_cell_render h1 {
+	font-size: 24pt;
+	color: rgb(192,80,77);
+	background-color: rgb(245,245,245);
+}
+
+div.text_cell_render h2 {
+	font-size: 20pt;
+	color: rgb(31,73,125);
+	background-color: rgb(242,242,242);
+}
+
+.presentation_mode h1{
+        text-align: center;
+}
+
+.presentation_mode .maintoolbar-container{
+    display:none; !important
+}
+
+.presentation_mode div#notebook-container {
+    box-shadow: none;
+    -webkit-box-shadow: none:
+
+}
+
+.presentation_mode #header {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: thin silver solid;
+
+}
+
+body.presentation_mode {
+    background-color:white;
+}
+
+div.text_cell_render h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    background-color: unset;
+    border: 5px solid;
+}
