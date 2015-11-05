@@ -1,6 +1,24 @@
-.pmode {
-    display:none; !important
+
+.input_area {
+    width: 600px;
 }
+
+.input_prompt, .output_prompt {
+    /*
+    margin-left: 200px;
+    */
+}
+
+div.text_cell_render{
+        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+        font-size: 120%;
+        margin-left:0px;
+        
+        /*width:800px;
+        margin-right:auto;
+    */
+}
+
 
 div.text_cell_render h1 {
 	font-size: 24pt;
@@ -14,39 +32,40 @@ div.text_cell_render h2 {
 	background-color: rgb(242,242,242);
 }
 
-.presentation_mode h1{
-        text-align: center;
-}
-
-.presentation_mode .maintoolbar-container{
-    display:none; !important
-}
-
-.presentation_mode div#notebook-container {
-    box-shadow: none;
-    -webkit-box-shadow: none:
-
-}
-
-.presentation_mode #header {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    border-bottom: thin silver solid;
-
-}
-
-body.presentation_mode {
-    background-color:white;
-}
-
-div.text_cell_render h6 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+div.objectives {
+    background-color: #FFFFCC;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
     color: inherit;
     font-size: 16px;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-    background-color: unset;
-    border: 5px solid;
+    border: 1px solid;
+    width: 600px;
+}
+
+
+div.exercice {
+    background-color: #CCCCFF;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: inherit;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.1;
+    border: 1px solid #000;
+    width: 500px;
+}
+
+div.exercice h1{
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    color: #000;
+    background-color: inherit;
 }
