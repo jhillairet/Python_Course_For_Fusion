@@ -1,24 +1,29 @@
-
-.input_area {
-    width: 600px;
+div.input {
+    width: 105ex; /* about 80 chars + buffer */
 }
 
 .input_prompt, .output_prompt {
-    /*
-    margin-left: 200px;
-    */
+    /*margin-left: 50px;*/
+}
+
+div.text_cell {
+    width: 105ex /* instead of 100%, */
+    margin-left: 0px;
+}
+
+.CodeMirror {
+    font-family: Consolas, monospace;
 }
 
 div.text_cell_render{
-        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-        font-size: 120%;
-        margin-left:0px;
-        
-        /*width:800px;
-        margin-right:auto;
-    */
+    /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+    font-family: "Charis SIL", serif; /* Make non-code text serif. */
+    line-height: 145%; /* added for some line spacing of text. */
+    width: 105ex; /* instead of 'inherit' for shorter lines */ 
+    /*font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+    font-size: 120%;
+    margin-left:0px;
 }
-
 
 div.text_cell_render h1 {
 	font-size: 24pt;
@@ -45,7 +50,6 @@ div.objectives {
     border: 1px solid;
     width: 600px;
 }
-
 
 div.exercice {
     background-color: #CCCCFF;
