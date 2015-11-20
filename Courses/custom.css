@@ -73,3 +73,7 @@ div.exercice h1{
     color: #000;
     background-color: inherit;
 }
+
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
