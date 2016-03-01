@@ -17,7 +17,7 @@ Moreover, each course sections include a _where could I find more information?_,
 
 
 
-The course topics are the following:
+The course topics slides are the following:
 
 ## [Vous avez dit Python? / _You said Python?_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/1-Introduction_to_Python.ipynb#/)
 
@@ -29,6 +29,15 @@ The course topics are the following:
  - Jupyter (ex-IPython notebook)
  - Spyder
  - Need help?
+
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartI_Introduction.ipynb)
+
+2.Répéter des actions
+3.Introduction à NumPy, la librairie Python pour manipuler des tableaux numériques
+4.Réaliser des graphiques, avec la librairie Matplotlib
+5.Accéder aux données des bases de données Fusion, avec la TSlib (WEST) et MDSplus (JET)
+6.Lire et écrire des fichiers, texte ou Matlab
+
  
 ## [Les bases indispensables de Python / _Python Language Basics_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/2-Python_Basics.ipynb#/)
 
@@ -44,12 +53,16 @@ The course topics are the following:
 - Exceptions
 - List comprehension
 
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartII_Python.ipynb)
+
 ## [(Introduction to) Numpy](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/3-NumPy_Basics.ipynb#/)
 
 - Numpy arrays
 - Opérations et manipulation des arrays, slicing
 - Ouvrir des fichiers de données (`.csv`, `.mat`)
 - Où trouver de l’aide ?
+
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartIII_NumPy.ipynb)
 
 
 ## [Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/4-Plotting_Basics.ipynb#/)
@@ -62,10 +75,19 @@ The course topics are the following:
 - Figures en 3D (`projection=3D`)
 - Où trouver de l’aide ?
 
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartIV_plotting.ipynb)
+
 ## [Récupération des signaux de la base de donnée / _Getting signals for the database_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/5-Fusion_data.ipynb#/)
 
 - Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
 - Accessing data via MDSplus: Tore Supra, JET 
+
+[Notebook Course](nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartV_Fusion-Data.ipynb)
+
+
+## Write or read text files
+
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartVI_Files.ipynb)
 
 
 ## Ressources and references
