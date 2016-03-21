@@ -30,7 +30,7 @@ The course topics slides are the following:
  - Spyder
  - Need help?
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartI_Introduction.ipynb)
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part1_Introduction.ipynb)
 
 2.Répéter des actions
 3.Introduction à NumPy, la librairie Python pour manipuler des tableaux numériques
@@ -53,7 +53,7 @@ The course topics slides are the following:
 - Exceptions
 - List comprehension
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartII_Python.ipynb)
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part2_Python.ipynb)
 
 ## [(Introduction to) Numpy](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/3-NumPy_Basics.ipynb#/)
 
@@ -62,7 +62,7 @@ The course topics slides are the following:
 - Ouvrir des fichiers de données (`.csv`, `.mat`)
 - Où trouver de l’aide ?
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartIII_NumPy.ipynb)
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part3_NumPy.ipynb)
 
 
 ## [Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/4-Plotting_Basics.ipynb#/)
@@ -75,19 +75,32 @@ The course topics slides are the following:
 - Figures en 3D (`projection=3D`)
 - Où trouver de l’aide ?
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartIV_plotting.ipynb)
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part4_plotting.ipynb)
 
 ## [Récupération des signaux de la base de donnée / _Getting signals for the database_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/5-Fusion_data.ipynb#/)
 
 - Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
 - Accessing data via MDSplus: Tore Supra, JET 
 
-[Notebook Course](nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartV_Fusion-Data.ipynb)
+[Notebook Course](nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part5_Fusion-Data.ipynb)
 
 
 ## Write or read text files
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/PartVI_Files.ipynb)
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part6_Files.ipynb)
+
+
+## Manipulating Images
+
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part7_Images.ipynb)
+
+## The SciPy module, examples
+
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part8_SciPy_Modules_and_Co.ipynb)
+
+## SymPy
+
+[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part9_SymPy.ipynb)
 
 
 ## Ressources and references
