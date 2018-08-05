@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jhillairet/Python_Course_For_Fusion/master)
 # Python Crash Course 
 ## for Fusion Scientists in a hurry
 
