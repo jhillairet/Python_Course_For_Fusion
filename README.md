@@ -20,7 +20,7 @@ Moreover, each course sections include a _where could I find more information?_,
 
 The course topics slides are the following:
 
-## [Vous avez dit Python? / _You said Python?_](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part1_Introduction.ipynb)
+## [Vous avez dit Python? / _You said Python?_](https://nbviewer.jupyter.org/format/slides/github/jhillairet/Python_Course_For_Fusion/blob/master/Slides/1-Introduction_to_Python.ipynb#/)
 
  - Whats is Python?
  - Why should I care?
@@ -40,7 +40,7 @@ The course topics slides are the following:
 6.Lire et écrire des fichiers, texte ou Matlab
 
  
-## [Les bases indispensables de Python / _Python Language Basics_](https://nbviewer.jupyter.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/2-Python_Basics.ipynb#/)
+## [Les bases indispensables de Python / _Python Language Basics_](https://nbviewer.jupyter.org/format/slides/github/jhillairet/Python_Course_For_Fusion/blob/master/Slides/2-Python_Basics.ipynb#/)
 
 - Python Files
 - Comments
@@ -54,19 +54,19 @@ The course topics slides are the following:
 - Exceptions
 - List comprehension
 
-[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part2_Python.ipynb)
+[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part2_Python.ipynb)
 
-## [(Introduction to) Numpy](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/3-NumPy_Basics.ipynb#/)
+## [(Introduction to) Numpy](https://nbviewer.jupyter.org/format/slides/github/jhillairet/Python_Course_For_Fusion/blob/master/Slides/3-NumPy_Basics.ipynb)
 
 - Numpy arrays
 - Opérations et manipulation des arrays, slicing
 - Ouvrir des fichiers de données (`.csv`, `.mat`)
 - Où trouver de l’aide ?
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part3_NumPy.ipynb)
+[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part3_NumPy.ipynb)
 
 
-## [Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/4-Plotting_Basics.ipynb#/)
+## [Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_](https://nbviewer.jupyter.org/format/slides/github/jhillairet/Python_Course_For_Fusion/blob/master/Slides/4-Plotting_Basics.ipynb#/)
 
 - Simple plot
 - Changer les options graphiques, depuis l'interface  ou en commandes (`axes`, `set_`, etc.)
@@ -76,32 +76,32 @@ The course topics slides are the following:
 - Figures en 3D (`projection=3D`)
 - Où trouver de l’aide ?
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part4_plotting.ipynb)
+[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part4_plotting.ipynb)
 
-## [Récupération des signaux de la base de donnée / _Getting signals for the database_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/5-Fusion_data.ipynb#/)
+## [Récupération des signaux de la base de donnée / _Getting signals for the database_](https://nbviewer.jupyter.org/format/slides/github/jhillairet/Python_Course_For_Fusion/blob/master/Slides/5-Fusion_data.ipynb#/)
 
 - Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
 - Accessing data via MDSplus: Tore Supra, JET 
 
-[Notebook Course](nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part5_Fusion-Data.ipynb)
+[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part5_Fusion-Data.ipynb)
 
 
 ## Write or read text files
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part6_Files.ipynb)
+[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part6_Files.ipynb)
 
 
 ## Manipulating Images
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part7_Images.ipynb)
+[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part7_Images.ipynb)
 
 ## The SciPy module, examples
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part8_SciPy_Modules_and_Co.ipynb)
+[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part8_SciPy_Modules_and_Co.ipynb)
 
 ## SymPy
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part9_SymPy.ipynb)
+[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part9_SymPy.ipynb)
 
 
 ## Ressources and references
