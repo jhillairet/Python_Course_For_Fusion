@@ -20,7 +20,7 @@ Moreover, each course sections include a _where could I find more information?_,
 
 The course topics slides are the following:
 
-## [Vous avez dit Python? / _You said Python?_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/1-Introduction_to_Python.ipynb#/)
+## [Vous avez dit Python? / _You said Python?_](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part1_Introduction.ipynb)
 
  - Whats is Python?
  - Why should I care?
@@ -40,7 +40,7 @@ The course topics slides are the following:
 6.Lire et écrire des fichiers, texte ou Matlab
 
  
-## [Les bases indispensables de Python / _Python Language Basics_](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/2-Python_Basics.ipynb#/)
+## [Les bases indispensables de Python / _Python Language Basics_](https://nbviewer.jupyter.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/2-Python_Basics.ipynb#/)
 
 - Python Files
 - Comments
@@ -54,7 +54,7 @@ The course topics slides are the following:
 - Exceptions
 - List comprehension
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part2_Python.ipynb)
+[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part2_Python.ipynb)
 
 ## [(Introduction to) Numpy](http://nbviewer.ipython.org/format/slides/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Slides/3-NumPy_Basics.ipynb#/)
 
