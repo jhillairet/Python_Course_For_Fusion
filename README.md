@@ -18,12 +18,12 @@ Moreover, each course sections include a _where could I find more information?_,
 
 The course topics slides are the following:
 
-1.Introduction Générale: Python et les outils à l'IRFM
-2.Introduction au langage Python
-3.Introduction à NumPy, la librairie Python pour manipuler des tableaux numériques
-4.Réaliser des graphiques avec la librairie Matplotlib
-5.Accéder aux données des bases de données Fusion avec la TSlib (WEST)
-6.Lire et écrire des fichiers (texte ou Matlab)
+ 1.Introduction Générale: Python et les outils à l'IRFM
+ 2.Introduction au langage Python
+ 3.Introduction à NumPy, la librairie Python pour manipuler des tableaux numériques
+ 4.Réaliser des graphiques avec la librairie Matplotlib
+ 5.Accéder aux données des bases de données Fusion avec la TSlib (WEST)
+ 6.Lire et écrire des fichiers (texte ou Matlab)
 
 ## Vous avez dit Python? / _You said Python?_
 
