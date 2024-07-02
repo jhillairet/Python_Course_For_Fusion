@@ -1,4 +1,3 @@
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jhillairet/Python_Course_For_Fusion/master)
 # Python Crash Course 
 ## for Fusion Scientists in a hurry
 
@@ -17,30 +16,26 @@ Because this solution does not please me (but rather circunstance imposed), the 
 Moreover, each course sections include a _where could I find more information?_, in order to insist on the fact that the online ressources concerning Python are significant (numerous but scattered!), which is a change in habits over Matlab for which the documentation is very well centralized.
 
 
-
 The course topics slides are the following:
 
-## [Vous avez dit Python? / _You said Python?_](https://nbviewer.jupyter.org/format/slides/github/jhillairet/Python_Course_For_Fusion/blob/master/Slides/1-Introduction_to_Python.ipynb#/)
+1.Introduction Générale: Python et les outils à l'IRFM
+2.Introduction au langage Python
+3.Introduction à NumPy, la librairie Python pour manipuler des tableaux numériques
+4.Réaliser des graphiques avec la librairie Matplotlib
+5.Accéder aux données des bases de données Fusion avec la TSlib (WEST)
+6.Lire et écrire des fichiers (texte ou Matlab)
+
+## Vous avez dit Python? / _You said Python?_
 
  - Whats is Python?
  - Why should I care?
  - Python at IRFM
- - Python terminal
- - IPython
- - Jupyter (ex-IPython notebook)
- - Spyder
+ - The hard-way: Python terminal and IPython
+ - The easier-way: Jupyter and Spyder
+ - The super-easier-way: IRFM Jupyterlab 
  - Need help?
 
-[Notebook Course](http://nbviewer.ipython.org/github/jhillairet/Fusion/blob/master/Python_Crash_Course/Courses/Part1_Introduction.ipynb)
-
-2.Répéter des actions
-3.Introduction à NumPy, la librairie Python pour manipuler des tableaux numériques
-4.Réaliser des graphiques, avec la librairie Matplotlib
-5.Accéder aux données des bases de données Fusion, avec la TSlib (WEST) et MDSplus (JET)
-6.Lire et écrire des fichiers, texte ou Matlab
-
- 
-## [Les bases indispensables de Python / _Python Language Basics_](https://nbviewer.jupyter.org/format/slides/github/jhillairet/Python_Course_For_Fusion/blob/master/Slides/2-Python_Basics.ipynb#/)
+## Les bases indispensables de Python / _Python Language Basics_
 
 - Python Files
 - Comments
@@ -54,19 +49,16 @@ The course topics slides are the following:
 - Exceptions
 - List comprehension
 
-[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part2_Python.ipynb)
 
-## [(Introduction to) Numpy](https://nbviewer.jupyter.org/format/slides/github/jhillairet/Python_Course_For_Fusion/blob/master/Slides/3-NumPy_Basics.ipynb)
+## (Introduction to) Numpy
 
 - Numpy arrays
 - Opérations et manipulation des arrays, slicing
 - Ouvrir des fichiers de données (`.csv`, `.mat`)
 - Où trouver de l’aide ?
 
-[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part3_NumPy.ipynb)
 
-
-## [Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_](https://nbviewer.jupyter.org/format/slides/github/jhillairet/Python_Course_For_Fusion/blob/master/Slides/4-Plotting_Basics.ipynb#/)
+## Représentation graphique (des signaux) avec matplotlib / _Plotting with Matplotlib_
 
 - Simple plot
 - Changer les options graphiques, depuis l'interface  ou en commandes (`axes`, `set_`, etc.)
@@ -76,39 +68,26 @@ The course topics slides are the following:
 - Figures en 3D (`projection=3D`)
 - Où trouver de l’aide ?
 
-[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part4_plotting.ipynb)
 
-## [Récupération des signaux de la base de donnée / _Getting signals for the database_](https://nbviewer.jupyter.org/format/slides/github/jhillairet/Python_Course_For_Fusion/blob/master/Slides/5-Fusion_data.ipynb#/)
+## Récupération des signaux de la base de donnée / _Getting signals for the database_
 
 - Le module PyWed : tsbase. Scalaires, Signaux, Groupes de signaux
-- Accessing data via MDSplus: Tore Supra, JET 
-
-[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part5_Fusion-Data.ipynb)
+- Travailler avec les données réduites (et pandas)
 
 
 ## Write or read text files
 
-[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part6_Files.ipynb)
-
 
 ## Manipulating Images
 
-[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part7_Images.ipynb)
-
 ## The SciPy module, examples
-
-[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part8_SciPy_Modules_and_Co.ipynb)
 
 ## SymPy
 
-[Notebook Course](https://nbviewer.jupyter.org/github/jhillairet/Python_Course_For_Fusion/blob/master/Courses/Part9_SymPy.ipynb)
-
-
 ## Ressources and references
 
-- [MATLAB synonymous commands in Python/NumPy](http://mathesaurus.sourceforge.net)
 - [Scipy Lecture Notes](http://www.scipy-lectures.org/)
+- [MATLAB synonymous commands in Python/NumPy](http://mathesaurus.sourceforge.net)
 
-- [Scientific Computing With Python, Jake Vanderplas](http://www.astro.washington.edu/users/vanderplas/Astr599_2014/)
+- [Scientific Python Library Development Guide ](https://learn.scientific-python.org/development/)
 - [Lectures on scientific computing with Python, Robert Johansson](https://github.com/jrjohansson/scientific-python-lectures)
-- [Scientific programming in Python, Jakub Urban (IPP Prague)](http://www.pythonic.eu/fjfi/en/index.html)
